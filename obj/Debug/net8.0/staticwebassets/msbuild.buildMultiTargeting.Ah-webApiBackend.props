@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Ah-webApiBackend.props" />
+</Project>
