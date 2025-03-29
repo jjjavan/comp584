@@ -1,0 +1,53 @@
+/* Add styles to the root host element */
+:host {
+  display: block;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+  min-height: 100vh;
+}
+
+/* Style for a container or wrapper */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #6200ea;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 4px solid #3700b3;
+}
+
+/* Button styles */
+button {
+  padding: 10px 20px;
+  background-color: #6200ea;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #3700b3;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 0;
+  background-color: #6200ea;
+  color: white;
+  font-size: 0.9em;
+}

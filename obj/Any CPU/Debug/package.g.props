@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <PackageJsonName Condition="$(PackageJsonName) == ''">ah-crm-frontend</PackageJsonName>
+    <PackageJsonVersion Condition="$(PackageJsonVersion) == ''">0.0.0</PackageJsonVersion>
+    <PackageJsonScriptsNg Condition="$(PackageJsonScriptsNg) == ''">ng</PackageJsonScriptsNg>
+    <PackageJsonScriptsStart Condition="$(PackageJsonScriptsStart) == ''">ng serve --host=127.0.0.1</PackageJsonScriptsStart>
+    <PackageJsonScriptsBuild Condition="$(PackageJsonScriptsBuild) == ''">ng build</PackageJsonScriptsBuild>
+    <PackageJsonScriptsWatch Condition="$(PackageJsonScriptsWatch) == ''">ng build --watch --configuration development</PackageJsonScriptsWatch>
+    <PackageJsonScriptsTest Condition="$(PackageJsonScriptsTest) == ''">ng test</PackageJsonScriptsTest>
+    <PackageJsonPrivate Condition="$(PackageJsonPrivate) == ''">true</PackageJsonPrivate>
+    <PackageJsonDependenciesAngularAnimations Condition="$(PackageJsonDependenciesAngularAnimations) == ''">~13.0.0</PackageJsonDependenciesAngularAnimations>
+    <PackageJsonDependenciesAngularCommon Condition="$(PackageJsonDependenciesAngularCommon) == ''">~13.0.0</PackageJsonDependenciesAngularCommon>
+    <PackageJsonDependenciesAngularCompiler Condition="$(PackageJsonDependenciesAngularCompiler) == ''">~13.0.0</PackageJsonDependenciesAngularCompiler>
+    <PackageJsonDependenciesAngularCore Condition="$(PackageJsonDependenciesAngularCore) == ''">~13.0.0</PackageJsonDependenciesAngularCore>
+    <PackageJsonDependenciesAngularForms Condition="$(PackageJsonDependenciesAngularForms) == ''">~13.0.0</PackageJsonDependenciesAngularForms>
+    <PackageJsonDependenciesAngularPlatformBrowser Condition="$(PackageJsonDependenciesAngularPlatformBrowser) == ''">~13.0.0</PackageJsonDependenciesAngularPlatformBrowser>
+    <PackageJsonDependenciesAngularPlatformBrowserDynamic Condition="$(PackageJsonDependenciesAngularPlatformBrowserDynamic) == ''">~13.0.0</PackageJsonDependenciesAngularPlatformBrowserDynamic>
+    <PackageJsonDependenciesAngularRouter Condition="$(PackageJsonDependenciesAngularRouter) == ''">~13.0.0</PackageJsonDependenciesAngularRouter>
+    <PackageJsonDependenciesRxjs Condition="$(PackageJsonDependenciesRxjs) == ''">~7.4.0</PackageJsonDependenciesRxjs>
+    <PackageJsonDependenciesTslib Condition="$(PackageJsonDependenciesTslib) == ''">^2.3.0</PackageJsonDependenciesTslib>
+    <PackageJsonDependenciesZoneJs Condition="$(PackageJsonDependenciesZoneJs) == ''">~0.11.4</PackageJsonDependenciesZoneJs>
+    <PackageJsonDependenciesJestEditorSupport Condition="$(PackageJsonDependenciesJestEditorSupport) == ''">*</PackageJsonDependenciesJestEditorSupport>
+    <PackageJsonDevdependenciesAngularDevkitBuildAngular Condition="$(PackageJsonDevdependenciesAngularDevkitBuildAngular) == ''">~13.0.1</PackageJsonDevdependenciesAngularDevkitBuildAngular>
+    <PackageJsonDevdependenciesAngularCli Condition="$(PackageJsonDevdependenciesAngularCli) == ''">~13.0.1</PackageJsonDevdependenciesAngularCli>
+    <PackageJsonDevdependenciesAngularCompilerCli Condition="$(PackageJsonDevdependenciesAngularCompilerCli) == ''">~13.0.0</PackageJsonDevdependenciesAngularCompilerCli>
+    <PackageJsonDevdependenciesTypesJasmine Condition="$(PackageJsonDevdependenciesTypesJasmine) == ''">~3.10.0</PackageJsonDevdependenciesTypesJasmine>
+    <PackageJsonDevdependenciesTypesNode Condition="$(PackageJsonDevdependenciesTypesNode) == ''">^12.11.1</PackageJsonDevdependenciesTypesNode>
+    <PackageJsonDevdependenciesJasmineCore Condition="$(PackageJsonDevdependenciesJasmineCore) == ''">~3.10.0</PackageJsonDevdependenciesJasmineCore>
+    <PackageJsonDevdependenciesKarma Condition="$(PackageJsonDevdependenciesKarma) == ''">~6.3.0</PackageJsonDevdependenciesKarma>
+    <PackageJsonDevdependenciesKarmaChromeLauncher Condition="$(PackageJsonDevdependenciesKarmaChromeLauncher) == ''">~3.1.0</PackageJsonDevdependenciesKarmaChromeLauncher>
+    <PackageJsonDevdependenciesKarmaCoverage Condition="$(PackageJsonDevdependenciesKarmaCoverage) == ''">~2.0.3</PackageJsonDevdependenciesKarmaCoverage>
+    <PackageJsonDevdependenciesKarmaJasmine Condition="$(PackageJsonDevdependenciesKarmaJasmine) == ''">~4.0.0</PackageJsonDevdependenciesKarmaJasmine>
+    <PackageJsonDevdependenciesKarmaJasmineHtmlReporter Condition="$(PackageJsonDevdependenciesKarmaJasmineHtmlReporter) == ''">~1.7.0</PackageJsonDevdependenciesKarmaJasmineHtmlReporter>
+    <PackageJsonDevdependenciesTypescript Condition="$(PackageJsonDevdependenciesTypescript) == ''">~4.4.3</PackageJsonDevdependenciesTypescript>
+  </PropertyGroup>
+</Project>
